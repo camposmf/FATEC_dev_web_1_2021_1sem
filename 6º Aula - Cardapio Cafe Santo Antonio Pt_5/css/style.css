@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: none;
+    background-color: whitesmoke;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteiner {
+    width: 960px;
+    margin: auto;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    
+    height: 80px;
+    background-color: rgb(56, 33, 25);
+}
+
+header .logo img {
+    height: 70px;
+    margin: 5px;
+}
+
+header .navitem {
+    color: white;
+    line-height: 80px;
+    text-decoration: none;
+
+    font-size: 18px;
+    margin-right: 80px;
+}
+
+header .navitem a {
+    padding: 15px;
+}
+
+header .navitem a:hover{
+    background-color:#63443a;
+    border-radius: 5px;
+}
+
+main .sobre {
+    height: 400px;
+    padding: 55px;
+    background-color: white;
+}
+main .sobre h2 {
+    color: rgb(56, 33, 25);
+}
+
+main .sobre-conteudo {
+    display: flex;
+    align-items: center;
+}
+
+main .sobre-conteudo img {
+    border-radius: 250px;
+    height: 220px;
+}
+
+main .sobre-conteudo p {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+main .cardapio {
+    padding: 55px;
+    background-color: rgb(56, 33, 25);
+}
+
+main .cardapio h2 {
+    color: white;
+}
+
+main .cardapio-item {
+    display: flex;
+}
+
+main .cardapio-item div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+main .cardapio-item img {
+    border-radius: 250px;
+    height: 140px;
+}
+
+main .cardapio-item p {
+    font-size: 15px;
+}
+
+main .localizacao {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 55px;
+    background-color: rgb(211, 195, 157);
+}
+
+main .endereco {
+    width: 400px;
+}
+
+main .localizacao p {
+    font-family: "Pacifico", cursive;
+}
+
+main .mapa iframe {
+    height: 400px;
+    width: 450px;
+    
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 5px;
+    background-color: rgb(56, 33, 25);
+}
+
+footer h3{
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    
+    font-style: italic;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    box-shadow: 1px 10px 10px 10px #888888;
+}
+
+header .navbar {
+    display: flex;
+    padding: 15px;
+
+    align-items: center;
+    justify-content: space-around;
+
+    color: white;
+    background-color: rgb(0, 54, 80);
+}
+
+header .nav-item {
+    color: white;
+}
+
+main .about {
+    padding: 80px 145px;
+    margin-top: -4px;
+    background-color: rgb(235, 235, 235);
+}
+
+main .about h2{
+    font-weight: bold;
+}
+
+main .services {
+    height: 650px;
+    padding: 80px;
+    color: white;
+    background-color: rgb(0, 54, 80);
+}
+main .page-subtitle {
+    margin-bottom: 50px;
+}
+main .service-content {
+    display: flex;
+}
+
+main .services .services-item {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    margin-right: 10px;
+}
+
+main .services .services-item img {
+    width: 140px;
+}
+
+main .services .services-item h3 {
+    margin: 10px 0;
+}
+
+main .clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 80px;
+    
+    background-color: rgb(235, 235, 235);
+}
+
+main .clients .client-text {
+    margin-bottom: 50px;
+}
+
+main .clients h2 {
+    margin-bottom: 20px;
+}
+
+.client-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.localization {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    color: white;
+    background-color: rgb(0, 54, 80);
+}
+
+.localization .localization-text{
+    padding-right: 55px;
+}
+.localization .localization-text h2{
+    
+    margin-bottom: 50px;
+}
+
+.localization .localization-text {
+    width: 800px;
+}
+.localization .map iframe{
+    border: none;
+    width: 420px;
+    height: 400px;
+}
+
+header h3 {
+    padding: 10px;
+    text-align: center;
+
+    margin-bottom: 30px;
+    color: rgb(0, 54, 80);
+    background-color: rgb(235, 235, 235);
+}

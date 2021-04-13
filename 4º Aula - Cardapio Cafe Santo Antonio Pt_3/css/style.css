@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/background.jpg);
+}
+
+.conteiner {
+    width: 960px;
+    margin: auto;
+}
+
+.about-us {
+    background-color: #f4f0e4;
+    padding: 90px;
+}
+
+.main {
+    background-color: #bea074;
+    padding: 90px;
+}
+
+.main .coffee-menu {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.visit-us {
+    background-color: #3f0706;
+    color: white;
+    padding: 90px;
+}
+
+.sub-title{
+    margin-bottom: 25px;
+}
